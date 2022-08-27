@@ -1,0 +1,1542 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Scion",
+				"abbreviation": "Scion",
+				"full": "Scion",
+				"authors": [
+					"u/jorkrum"
+				],
+				"convertedBy": [
+					"Nexusflamehart#0001"
+				],
+				"version": "3.0",
+				"color": "df5a26",
+				"url": "https://www.gmbinder.com/share/-MXp7QNad5AxWKe6XLgy",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1661378238960,
+		"dateLastModified": 1661378238960
+	},
+	"class": [
+		{
+			"name": "Scion",
+			"source": "Scion",
+			"page": 3,
+			"hd": {
+				"faces": 1,
+				"number": 8
+			},
+			"proficiency": [
+				"cha",
+				"wis"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"rapier",
+					"longsword",
+					"shortsword"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"deception",
+								"history",
+								"insight",
+								"intimidation",
+								"investigation",
+								"perception",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item rapier|phb} or (b) a {@item longsword|phb}",
+					"(a) {@item leather armor|phb} or (b) {@item chainshirt|phb} (if proficient) or {@item chainmail} (if proficient)",
+					"(a) a {@item light crossbow} and {@item crossbow bolts} or 2 {@item handaxes}",
+					"(a) a {@item priests' pack|phb} or (b) an {@item burglar's pack|phb} or (c) an {@item diplomat's pack|phb} or (d) an {@item explorer's pack|phb} or (e) an {@item entertain's pack|phb}",
+					"a {@item shield} {@item calligrapher's supplies} and your choice of {@item thieves tool} or an musical instrument or an artisan tool."
+				],
+				"defaultData": [
+					{
+						"a": [
+							"rapier|phb"
+						],
+						"b": [
+							"longsword|phb"
+						]
+					},
+					{
+						"a": [
+							"leather armor|phb"
+						],
+						"b": [
+							"chainmail|phb"
+						],
+						"c": [
+							"chainshirt|phb"
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"burglar's pack|phb"
+						],
+						"c": [
+							"diplomat's pack|phb"
+						],
+						"d": [
+							"explorer's pack|phb"
+						],
+						"e": [
+							"entertainer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"dex": 13,
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"longswords",
+						"rapier",
+						"shortswords"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Influence Points",
+						"Bonus Languages"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							2,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							4,
+							2
+						],
+						[
+							5,
+							2
+						],
+						[
+							6,
+							3
+						],
+						[
+							7,
+							3
+						],
+						[
+							8,
+							3
+						],
+						[
+							9,
+							3
+						],
+						[
+							10,
+							4
+						],
+						[
+							11,
+							4
+						],
+						[
+							12,
+							4
+						],
+						[
+							13,
+							4
+						],
+						[
+							14,
+							5
+						],
+						[
+							15,
+							5
+						],
+						[
+							16,
+							5
+						],
+						[
+							17,
+							5
+						],
+						[
+							18,
+							6
+						],
+						[
+							19,
+							6
+						],
+						[
+							20,
+							6
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Instigate|Scion|Scion|1",
+				"Successor|Scion|Scion|1",
+				{
+					"classFeature": "Successor Feature|Scion|Scion|2",
+					"gainSubclassFeature": true
+				},
+				"Influence|Scion|Scion|2",
+				"Bonus Languages|Scion|Scion|2",
+				"Commanding Defence|Scion|Scion|3",
+				"Social Circles|Scion|Scion|3",
+				"Allowance|Scion|Scion|4",
+				"Ability Score Improvement|Scion|Scion|4",
+				"Prevailing Attack|Scion|Scion|5",
+				{
+					"classFeature": "Successor Feature|Scion|Scion|5",
+					"gainSubclassFeature": true
+				},
+				"Friends in High Places|Scion|Scion|6",
+				"For All Intents and Purposes|Scion|Scion|6",
+				"Uncompromising|Scion|Scion|7",
+				"Return to the Fold|Scion|Scion|7",
+				"Ability Score Improvement|Scion|Scion|8",
+				"Bonus Language Improvement|Scion|Scion|9",
+				"Freehold|Scion|Scion|10",
+				{
+					"classFeature": "Successor Feature|Scion|Scion|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Scion|Scion|12",
+				"Reading the Room|Scion|Scion|13",
+				"Sophisticated Strategies|Scion|Scion|14",
+				"On Which the Sun Never Sets|Scion|Scion|15",
+				"Ability Score Improvement|Scion|Scion|16",
+				{
+					"classFeature": "Successor Feature|Scion|Scion|17",
+					"gainSubclassFeature": true
+				},
+				"Feasts and Frivolity|Scion|Scion|18",
+				"Ability Score Improvement|Scion|Scion|19",
+				"Ascendant|Scion|Scion|20"
+			],
+			"subclassTitle": "Successor",			
+			"fluff": [
+				{
+					"type": "section",
+					"name": "Scion",
+					"page": 2,
+					"source": "Scion",
+					"entries": [
+						"Hands steepled, resting on an extravagent table a gaunt half-elf discusses the terms of trade with his new partner, his eagerness hidden behind a stony-faced facade.",
+						"Bellowing over the top of the din of battle, a muscular tabaxi steels his allies, readying for the final push into enemy lines to end the pyrrhic struggle.",
+						"Motioning her underlings into position, a tiefling and her gang lie in wait, ready to ambush their rival competitors.",
+						"Rather than having to work their way up positions in the hierarchy, scions are born into positions of privilege. They can either properly use their power and social standing to aid those less fortunate than themselves, or irresponsibly spend and flaunt it to fulfill their own selfish desires.",
+						{
+							"type": "entries",
+							"name": "Spreading their Influence",
+							"page": 2,
+							"entries": [
+								"For the scion, its up to them to rise to expectations, and exceed them. A great way of doing that is adventuring, where the scion can learn through a wealth of experiences, with the extra possibilities of spreading their family's influence throughout the lands they travel.",
+								"This can be at their family's behest, their own goal to prove themselves, or a convenience coinciding with their group's escapades. A scion relies on their silver tongue, the techniques shared down their family's line, and the ever useful glimmering of gold."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Born into Leadership",
+							"page": 2,
+							"entries": [
+								"Whereas other people might have to work their way up the ladder of success, scions were born into it. They have the responsibility to protect their family, it subjects, and its allies, although this can be adjusted depending on the ethics of their family's empire.",
+								"The role of a scion within the group is to lead them during a battle, focusing attacks towards a particular enemy, and pulling allies out of harms way. Outside of combat, scions are at the forefront of discussion and discourse, using their social standing and eloquence to move dialogues in their favour, not to mention bringing about a certain quality of life for their friends while in a settlement."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Scion",
+							"page": 2,
+							"entries": [
+								"When creating a scion, think about your family's empire, how it ties into the narrative, and why your character has chosen the path of the adventurer. Are you adamant on proving yourself to your family?",
+								"Are you tired of the pageantry and wish to experience something new? Or are you charged with expanding your family's empire within the campaign setting?"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quick Build",
+							"page": 3,
+							"entries": [
+								"You can make a scion quickly by following these suggestions. First, make Charisma you highest ability score, followed by Strength or Dexterity. Second, choose the noble background."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Instigate",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 1,
+			"entries": [
+				"At 1st level, once on each of your turns, you can use your action to order a specific response from one friendly creature other than yourself within 60 feet of you that can see or hear you, granting it one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The creature can immediately use its reaction to make one ability check, or take the Dash, Dodge, or Use an Object action.",
+						"Until the end of its next turn, the creature can make one additional attack if it takes the Attack action on its turn.",
+						"Until the end of its next turn, the creature can add one additional damage dice to one damage roll if it casts a spell on its turn."
+					]
+				},
+				"If you are able to make multiple attacks with the Attack action, you can forgo one of them to use this feature instead of spending your action."
+			]
+		},
+		{
+			"name": "Successor",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 1,
+			"entries": [
+				"Also at 1st level, your family history dictates the greatness you are destined to be: a Warlord, Syndicate Leader, Aristocrat, Magnate, or Evangelist, all detailed at the end of the class description.",
+				"Your choice grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Influence",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd Level, your family history gives you a modicum of influence. Your access to this is represented by a number of influence points. Your scion level determines the number of points you have, as shown in the Infleunce Points column of the Scion table.",
+				"You can spend these points to fuel various influence features. You start knowing two such features: Exchange Pleasantries and Decisive Strike. You learn more influence features as you gain levels in this class.",
+				"When you spend a infleunce point, it is unavailable until you finish a short or long rest, at the end of which you regain all of your expended influence.",
+				"Some of your influence features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+				"Influence save DC = 8 + your Proficiency Bonus + your Charisma modifier:"
+			]
+		},
+		{
+			"name": "Successor Feature",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 2,
+			"entries": [
+				"Also at 1st level, your family history dictates the greatness you are destined to be: a Warlord, Syndicate Leader, Aristocrat, Magnate, or Evangelist, all detailed at the end of the class description.",
+				"Your choice grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Exchange Pleasantries",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 2,
+			"entries": [
+				"As an action, you can spend 1 influence point and speak a few polite words to attempt to charm a creature. The creature must be within 60 feet of you and hear you, and the two of you must share a language.",
+				"It must make a Wisdom saving throw against your Influence save DC. If the creature fails its and the creature isn't hostile to you, it is charmed by you for 10 minutes. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.",
+				"If the creature succeeds on the saving throw or the charm ends, the creature is immune to this feature for 24 hours. When this feature ends, the creature doesn't know it was charmed by you."
+			]
+		},
+		{
+			"name": "Decisive Strike",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 2,
+			"entries": [
+				"At 2nd level, as a bonus action, you can spend 1 influence point to bolster a creature's attack. The creature must be within 60 feet of you and see or hear you. Until the start of your next turn, the first time the creature hits with a weapon or spell attack, it deals an extra 2d4 damage.",
+				"The damage increases to 2d6 at 5th level, 2d8 at 11th level, and 2d10 at 17th level."
+			]
+		},
+		{
+			"name": "Bonus Languages",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd Level, you learn one language of your choice. You learn additional languages when you reach certain scion levels, as shown in the Bonus Languages column of Scion table.",
+				"At 9th level, whenever you would learn a standard language from this feature, you can learn an exotic language instead. Additionally, you can spend 8 hours to automatically decode secret messages in any nonmagical text of a language you understand."
+			]
+		},
+		{
+			"name": "Social Circles",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain proficiency in History and one other skill of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+			]
+		},
+		{
+			"name": "Commanding Defence",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you can use your reaction to aid one friendly creature other than yourself within 60 feet of you when they are hit by an attack. When you do so, the damage they take is reduced by 1d6 + your Charisma modifier. ",
+				"This increases to 1d8 + your Charisma modifer at 5th level, 1d10 + your Charisma modifier at 11th level, and 1d12 + you Charisma modifier at 17th level."
+			]
+		},
+		{
+			"name": "Allowance",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 4,
+			"entries": [
+				"At 4th level, you get an allotment of gold per day equal to two and a half times your Scion level, rounded down. This can only be used on Lifestyle Expenses, Food, Drink, Lodging, Services, or Maintenance Costs for property you own (see page 157 to 159 of the Player's Handbook and page 127 of the Dungeon Master's Guide). Unspent gold does not carry over to the next day."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Successor Feature",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 5,
+			"entries": [
+				"Also at 1st level, your family history dictates the greatness you are destined to be: a Warlord, Syndicate Leader, Aristocrat, Magnate, or Evangelist, all detailed at the end of the class description.",
+				"Your choice grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 8,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Prevailing Attack",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 5,
+			"entries": [
+				"At 5th level, if you hit with a weapon attack, or another creature hits with a weapon attack granted by your Instigate feature, you can spend 1 influence point to attempt a Prevailing Attack. The target must succeed on a Strength saving throw or be pushed 10 feet away from the creature who hit with the attack, and be knocked prone."
+			]
+		},
+		{
+			"name": "For all Intents and Purposes",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, whenever another creature uses your Instigate feature to make one ability check, or take the Dash, Dodge, or Use an Object action, they gain the following benefits until the end of your turn:",
+				{
+					"type": "list",
+					"items": [
+						"If they take the Dash action, opportunity attacks against them are made at disadvantage.",
+						"If they make one ability check, they can do so with advantage.",
+						"If they take the Dodge or Use an Object action, it does not require the use of their reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Friends in High Places",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 6,
+			"entries": [
+				"At 6th level, you are afforded leeway when dealing with crimes you or your group have committed. Any punishment for you or a member of your group that involves imprisonment, exile, or hard labour is reduced to one quarter of the usual time, any fine or damages costs half as much of the usual gold, and any edict is ignored.",
+				"In addition, if you, an ally, or your group is caught having committed a crime, and are to suffer punishment that doesn't involve exile or death, you can have it be ignored. Once you use this feature this way, it can't be used again for one year."
+			]
+		},
+		{
+			"name": "Uncompromising",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+			]
+		},
+		{
+			"name": "Return to the Fold",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you can use your action to end one effect on another creature with 5 feet of you that is causing them to be {@condition charmed}."
+			]
+		},
+		{
+			"name": "Bonus Language Improvement",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 9,
+			"entries": [
+				"Starting at 2nd Level, you learn one language of your choice. You learn additional languages when you reach certain scion levels, as shown in the Bonus Languages column of Scion table.",
+				"At 9th level, whenever you would learn a standard language from this feature, you can learn an exotic language instead. Additionally, you can spend 8 hours to automatically decode secret messages in any nonmagical text of a language you understand."
+			]
+		},
+		{
+			"name": "Freehold",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 10,
+			"entries": [
+				"At 10th level, you acquire one property of your choice in a location of your choosing (at the DM's discretion) with a Total Cost per Day of 25 gp or less. Its Construction Cost and Total Cost Per Day are paid for you for free, and the property is fully built, its construction having started some time previously (see page 127 of the Dungeon Master's Guide)."
+			]
+		},
+		{
+			"name": "Successor Feature",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 11,
+			"entries": [
+				"Also at 1st level, your family history dictates the greatness you are destined to be: a Warlord, Syndicate Leader, Aristocrat, Magnate, or Evangelist, all detailed at the end of the class description.",
+				"Your choice grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Reading the Room",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 13,
+			"entries": [
+				"At 13th level, You know the prevailing emotion of creatures within 30 feet of you that you can see, whether it's love, anger, pain, fear, calm, or something else. You cannot read the emotion of creatures with an Intelligence of 3 or less, or that are immune to being charmed."
+			]
+		},
+		{
+			"name": "Sophisticated Strategies",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can add your Charisma modifier to any saving throw you make that doesn't include your proficiency bonus."
+			]
+		},
+		{
+			"name": "On Which the Sun Never Sets",
+			"source": "Scion",
+			"page": 5,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 15,
+			"entries": [
+				"At 15th level, thanks to the reach and influence of you and your family's empire, you always have contacts to fall back on. While in a settlement, your group gains the following benefits if they choose to spend time at your relative's or subject's residence:",
+				{
+					"type": "list",
+					"items": [
+						"They can live a wealthy lifestyle at no cost, and all Services (within reason) are available to them, no matter the prosperity of the settlement (for example  ship's passage would still not be available for a",
+						"landlocked settlement, see page 157 to 159 of the Player's Handbook).",
+						"They are able to immediately and at no cost find individuals interested in buying magical items (see pages 129 to 130 of the Dungeon Master's Guide and pages 133 to 134 of Xanathar's Guide to Everything)."
+					]
+				},
+				"In addition, whenever you or an ally would finish a long rest at a residence you or a relative or subject of yours owns, they gain temporary hit points equal to your Scion level + your Charisma modifier. These temporary hit points last for 8 hours."
+			]
+		},
+		{
+			"name": "Successor Feature",
+			"source": "Scion",
+			"page": 3,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 17,
+			"entries": [
+				"Also at 1st level, your family history dictates the greatness you are destined to be: a Warlord, Syndicate Leader, Aristocrat, Magnate, or Evangelist, all detailed at the end of the class description.",
+				"Your choice grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Feasts and Frivolity",
+			"source": "Scion",
+			"page": 6,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 18,
+			"entries": [
+				"At 18th level, while you are in a settlement, you can spend 1 hour, 1000 gold, and 6 influence points to organise a great feast, including magnificent food and drink. The feast takes 1 hour to consume, and the beneficial effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast. The feast spoils and no longer grants any benefits after 4 hours.",
+				"A creature that partakes of the feast gains the benefits of the {@spell heroes' feast} spell.",
+				"Additionally, while you are in a settlement, you can spend 8 hours and 8 influence points to have one object that isn't a magic item made for you for free. The object cannot be over 25,000 gold in value and no more than 300 feet in any dimension. Roll a d20, on a one, you cannot use this feature this way ever again, otherwise, you cannot use this feature this way again for 7 days."
+			]
+		},
+		{
+			"name": "Ascendant",
+			"source": "Scion",
+			"page": 6,
+			"className": "Scion",
+			"classSource": "Scion",
+			"level": 20,
+			"entries": [
+				"At 20th level, you fully inherit your family's legacy, with all the titles and privileges that come with it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You take over the ownership of a palace or large castle in a location of your choosing (at the DM's discretion), its Total Cost Per Day paid for you for free (see page 127 of the Dungeon Master's Guide).",
+						"As an action, you can cast {@spell command} at its lowest level at will, without expending a spell slot. Charisma is your spellcasting ability for this spell.",
+						"Using your Exchange Pleasantries feature does not require you to spend any influence points.",
+						"When you roll for initiative and have 19 or less influence points left, you regain 1 influence point."
+					]
+				}
+			]
+		}
+	],	
+	"subclassFeature": [
+		{
+			"name": "Fighting Words",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 6,
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain proficiency in medium armour, martial weapons and the Intimidation skill. Your proficiency bonus is doubled for any ability check that uses Intimidation."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"Also at 1st level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a fighting style option more than once, even if you later get to choose again.",
+				{
+					"type": "list",
+					"items": [
+						"Archery. You gain a +2 bonus to attack rolls you make with ranged Weapons.",
+						"Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+						"Great Weapon Fighting. When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.",
+						"Defence. While you are wearing armour, you gain a +1 to AC."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy Calluses",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, you can add your Constitution modifier, instead of your Dexterity modifier, to to determine your armour class when you aren't wearing heavy armour.",
+				"If there is a maximum Dexterity modifier that can be added to your armour class, it limits your Constitution modifier as well."
+			]
+		},
+		{
+			"name": "Warlord",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 6,
+			"level": 1,
+			"entries": [
+				"At 1st level, you become the successor to your family's position of power, such as the Aristocrat or Magnate. Your sucessor grants you features at 1st level and again at 2nd, 5th, 11th, and 17th level.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fighting Words|Scion|Scion|Warlord|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fighting Style|Scion|Scion|Warlord|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heavy Calluses|Scion|Scion|Warlord|Scion|1"
+				}
+			]
+		},
+		{
+			"name": "Bellow",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 2,
+			"entries": [
+				"At 2nd level, as a bonus action, you can spend 1 influence point to demoralize a creature within 60 feet of you that can hear you. The creature must succeed on a Wisdom saving throw against your Influence save DC or be {@condition frightened} of you until the start of your next turn."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},	
+		{
+			"name": "Hew",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 11,
+			"entries": [
+				"At 11th level, once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d4 damage of the same type dealt by the weapon to the target.",
+				"This extra damage increases to 2d6 at 17th level."
+			]
+		},
+		{
+			"name": "Follow-Through",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Warlord",
+			"page": 7,
+			"level": 17,
+			"entries": [
+				"At 17th level, once per round, if you you or a creature within 60 feet of you would reduce a creature to 0 hit points, you can make one weapon attack against a creature within your weapon's reach or range (no action required)."
+			]
+		},
+		{
+			"name": "Organized Crime",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"At 1st level, while travelling in a settlement, you gain the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Difficult terrain doesn't slow your group's travel.",
+						"Your group can't become lost except by magical means.",
+						"Your group can move stealthily at a normal pace.",
+						"Your group's passive Wisdom (Perception) score isn't reduced when moving at a fast pace."
+					]
+				}
+			]
+		},
+		{
+			"name": "Misleading Words",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn Thieves’ Cant. You also gain proficiency with hand crossbows, thieves' tools and the Deception skill. Your proficiency bonus is doubled for any ability check that uses Deception."
+			]
+		},
+		{
+			"name": "Syndicate Leader",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"Being on the wrong side of the law runs in the family, and yours is considered the best at what they do.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Organized Crime|Scion|Scion|Syndicate Leader|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Misleading Words|Scion|Scion|Syndicate Leader|Scion|1"
+				}
+			]
+		},		
+		{
+			"name": "Pawns Go First",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 2,
+			"entries": [
+				"At 2nd level, you can spend 1 influence point to take the Disengage or Hide action as a bonus action.",
+				"In addition, you can hide even when you are obscured only by a creature that is your size or larger than you."
+			]
+		},
+		{
+			"name": "If You Want Something Done Right",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 5,
+			"entries": [
+				"At 5th level, once per round, if you hit with an attack, or another creature hits with an attack granted by your Instigate feature, it deals an extra 2d10 damage. The attack must use a finesse or ranged weapon.",
+				"This damage increases to 3d10 at 11th level and 4d10 at 17th level."
+			]
+		},
+		{
+			"name": "Intricate Planning",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 7,
+			"level": 11,
+			"entries": [
+				"At 11th level, you can spend one hour to hypothesise the outcome of a course of action, and receive a gut feeling on a plan you take within the next 24 hours. The DM chooses from the following possible feelings:",
+				{
+					"type": "list",
+					"items": [
+						"Confident, for good results.",
+						"Doubtful, for bad results.",
+						"Torn, for both good and bad results.",
+						"Nothing, for results that aren't especially good or bad."
+					]
+				},
+				"The feature doesn't take into account any possible circumstances that might change the outcome, such as the casting of spells or the loss or gain of a companion.",
+				"If you use this feature two or more times before completing your next long rest, there is a cumulative 25 percent chance for each use after the first that you get a random feeling. The DM makes this roll in secret."
+			]
+		},
+		{
+			"name": "No Loose Ends",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Syndicate Leader",
+			"page": 8,
+			"level": 17,
+			"entries": [
+				"Beginning at 17th level, once per round, whenever you or a friendly creature within 30 feet of you that can see or hear you would reduce a creature's hit points to equal to half your Scion level (rounded up) or less, you can have them be reduced to 0 hit points and be slain instead (no action required)."
+			]
+		},
+		{
+			"name": "Bonus Cantrips",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 8,
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn the {@spell thaumaturgy}, {@spell sacred flame}, and {@spell spare the dying} cantrips. Charisma is your spellcasting ability for these spells."
+			]
+		},
+		{
+			"name": "Divine Following",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 7,
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain proficiency in medium armour and the Religion skill. Your proficiency bonus is doubled for any ability check that uses Religion."
+			]
+		},
+		{
+			"name": "Religious Arts",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 7,
+			"level": 2,
+			"entries": [
+				"At 2nd level, as an action, you can spend 1 influence point to cast {@spell ceremony}, {@spell detect evil and good}, or {@spell protection from evil and good} at their lowest level.",
+				"In addition, as a bonus action, you can spend 1 influence point to cast {@spell healing word} at its lowest level. Charisma is your spellcasting ability for these spells."
+			]
+		},
+		{
+			"name": "Evangelist",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 8,
+			"level": 1,
+			"entries": [
+				"Your family has created a dedicated community brought together by their common beliefs. Now it is your turn to lead the flock.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrips|Scion|Scion|Evangelist|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Following|Scion|Scion|Evangelist|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Religious Arts|Scion|Scion|Evangelist|Scion|2"
+				}
+			]
+		},
+		{
+			"name": "Mob Mentality",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 7,
+			"level": 5,
+			"entries": [
+				"At 5th level, when you spend your action to use your Instigate feature, you can choose two different friendly creatures to gain its benefits. All other rules for Instigate still apply to you."
+			]
+		},
+		{
+			"name": "Sect Headquarters",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 7,
+			"level": 11,
+			"entries": [
+				"At 11th level, as an action, you can spend 6 influence points to cast the {Spell word of recall} spell. Charisma is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Divine Grace",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Evangelist",
+			"page": 7,
+			"level": 17,
+			"entries": [
+				"At 17th level, once per round, whenever you or a friendly creature within 30 feet of you would be reduced to 0 hit points, you can have them be reduced to 1 hit point instead, and they regain a number of hit points equal to half your Scion level, rounded down (no action required). The creature can't benefit from this feature again until they finish a long rest."
+			]
+		},
+		{
+			"name": "Unarmored Defence",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 8,
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, while you are wearing no armour and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Bodyguard",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 8,
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, you can spend 1 hour in a settlement to enlist a guard to serve as your bodyguard. It is friendly to you and your companions, and it obeys your commands. In combat, the bodyguard shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any commands, or are incapacitated or absent, the bodyguard acts on its own.",
+				"The bodyguard uses the {@creature guard} stat block, and has abilities and game statistics determined in part by your level. The bodyguard uses your proficiency bonus rather than its own, and it uses your Charisma modifier, instead of its Strength or Dexterity, for attack rolls with weapons it is proficient with.",
+				"The bodyguard is proficient in simple weapons, light armour, medium armour, and shields, and gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.",
+				"For each scion level after 1st, the bodyguard gains an additional hit die and increases its hit points accordingly.",
+				"You can only have one bodyguard at a time, if you already have a bodyguard when you enlist the services of a new one, the previous one immediately leaves and no longer serves you. Your DM has the creature's statistics."
+			]
+		},
+		{
+			"name": "A Way with Words",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 9,
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn the {@spell vicious mockery} cantrip, and gain proficiency in the Persuasion skill.",
+				"Charisma is your spellcasting ability for this spell, and your proficiency bonus is doubled for any ability check that uses Persuasion."
+			]
+		},
+		{
+			"name": "Aristocrat",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 8,
+			"level": 1,
+			"entries": [
+				"A person of noble birth and born with a silver spoon in their mouth, life comes easy to an aristocrat. Aided by their stalwart bodyguard, there's no one better to have around to deal with the intricacies and nuances of politics.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unarmored Defence|Scion|Scion|Aristocrat|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bodyguard|Scion|Scion|Aristocrat|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "A Way with Words|Scion|Scion|Aristocrat|Scion|1"
+				}
+			]
+		},
+		{
+			"name": "Self Preservation",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 9,
+			"level": 2,
+			"entries": [
+				"At 2nd level, you can spend 1 influence point to take the {@action Dodge} action as a bonus action on your turn."
+			]
+		},
+		{
+			"name": "Delegate",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 9,
+			"level": 5,
+			"entries": [
+				"At 5th level, using your Decisive Strike feature does not require you to spend any influence points, and when you use your Decisive Strike feature, you can spend 1 influence point to choose one other creature to also gain its benefits. All other rules for Decisive Strike still apply to you."
+			]
+		},
+		{
+			"name": "Fearless Champion",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 9,
+			"level": 11,
+			"entries": [
+				"At 11th level, your bodyguard becomes proficient with martial weapons, is immune to being {@condition frightened}, and can't be surprised.",
+				"Additionally, when you suffer a critical hit, if your bodyguard is within 5 feet of you, it can use its reaction to swap places with you and suffer the hit instead."
+			]
+		},
+		{
+			"name": "Humiliate",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Aristocrat",
+			"page": 9,
+			"level": 17,
+			"entries": [
+				"At 17th level, if your Commanding Defence feature would reduce the damage of a creature's attack to 0, you can cast {@spell vicious mockery} against the creature, as part of the same reaction."
+			]
+		},
+		{
+			"name": "Master of their Trade",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 1,
+			"entries": [
+				"At 1st level, you've honed and perfected a particular trade. You gain proficiency in medium armour, heavy armour and {@item warhammer} and one type of artisan's tools of your choice. If you are already proficient in that tool, your proficiency bonus is doubled for any ability check that uses it."
+			]
+		},
+		{
+			"name": "Order of Business",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 1,
+			"entries": [
+				"Also at 1st level, you have advantage on Running a Business rolls (see page 128 and 129 of the Dungeon Master's Guide).",
+				"If you craft a nonmagic item, it takes you a quarter of the normal time, and it costs you half as much of the usual gold"
+			]
+		},
+		{
+			"name": "Appraiser",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 1,
+			"entries": [
+				"Lastly at 1st level, you know the approximate cost of an item just by looking at it, and you have advantage on History checks when determining the origin of an item or object"
+			]
+		},
+		{
+			"name": "Magnate",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 1,
+			"entries": [
+				"Magnates manage large business conglomerates such as crafting or artisanry, and are always looking for ways to expand upon and hone their craft.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Master of their Trade|Scion|Scion|Magnate|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Order of Business|Scion|Scion|Magnate|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Appraiser|Scion|Scion|Magnate|Scion|1"
+				}
+			]
+		},
+		{
+			"name": "Tricks of the Trade",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 2,
+			"entries": [
+				"At 2nd level, you can expend up to 1 influence point as a bonus action to grant one of the following effects to one willing target within 60 feet of you that can see or hear you:",
+				{
+					"type": "list",
+					"items": [
+						"Name one weapon property. Weapons with that property that the target is holding gain a bonus to attack and damage rolls when they attack with them. The bonus equals the number of influence points spent. This bonus lasts for 1 minute. This feature has no effect on magic weapons that already have a bonus to attack and damage rolls.",
+						"Name one armour category (light, medium, or heavy), shields, or one set of clothes. A suit of armour of that category that the target has donned, set of clothes that it is wearing, or shield that it is wielding gains a bonus to AC. The bonus equals the number of influence points spent. This bonus lasts for 1 minute. This feature has no effect on a magic suit of armour, shield, or set of clothes that already has a bonus to AC. A creature can only benefit from a bonus to AC from a set of clothes this way if they are wearing no armour and not wielding a shield."
+					]
+				},
+				"You can expend up to 2 influence points at 11th level, and 3 at 17th level."
+			]
+		},
+		{
+			"name": "Delegate",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 5,
+			"entries": [
+				"At 5th level, using your Decisive Strike feature does not require you to spend any influence points, and when you use your Decisive Strike feature, you can spend 1 influence point to choose one other creature to also gain its benefits. All other rules for Decisive Strike still apply to you."
+			]
+		},
+		{
+			"name": "Trade Secrets",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 11,
+			"entries": [
+				"At 11th level, the bonus to damage rolls granted by your Tricks of the Trade feature is doubled for you, and you have advantage on Charisma (Deception) checks when withholding the truth without lying."
+			]
+		},
+		{
+			"name": "Magnifico",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Magnate",
+			"page": 10,
+			"level": 17,
+			"entries": [
+				"At 17th level, allies are inspired by your opulence. Once per round, when you, or a creature within 30 feet of you that is under the effects of your Decisive Strike feature would reduce a creature to 0 hit points, you and friendly creatures within 30 feet of you gain a +2 bonus to damage rolls with attacks until the end of your next turn."
+			]
+		},		
+		{
+			"name": "Versatile Performer",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 1,
+			"entries": [
+				"At 1st level, you become proficient in the Performance skill, the {@item disguise kit}, and one musical instrument of your choice. If you are already proficient in that skill, tool, or instrument, your proficiency bonus is doubled for any ability check that uses it."
+			]
+		},
+		{
+			"name": "Unarmored Defence",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, while you are wearing no armour and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Very Important Person",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 1,
+			"entries": [
+				"Lastly at 1st level, you have advantage on Charisma checks when you or your group is attempting to move into or is caught inside an area they are not normally allowed to access."
+			]
+		},
+		{
+			"name": "Idol",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 1,
+			"entries": [
+				"Being brought up in a family atop the entertainment business, you breeze through life with many admirers and fans.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unarmored Defence|Scion|Scion|Idol|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Versatile Performer|Scion|Scion|Idol|Scion|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Very Important Person|Scion|Scion|Idol|Scion|1"
+				}
+			]
+		},
+		{
+			"name": "Disarming Smile",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 2,
+			"entries": [
+				"At 2nd level, as a bonus action, you can spend 1 influence point to momentarily captivate a creature within 60 feet of you that can see or hear you. The creature must succeed on a Wisdom saving throw against your Influence save DC. A creature that fails its save is {@condition charmed} by you until the start of your next turn or you or your companions do anything harmful to it. When this feature ends, the creature doesn't know it was charmed by you.."
+			]
+		},
+		{
+			"name": "Overzealous Fan",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 5,
+			"entries": [
+				"At 5th level, when you spend your action to use your Instigate feature, you can grant the creature two additional attacks instead of one. All other rules for Instigate still apply to you."
+			]
+		},
+		{
+			"name": "Feature",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 11,
+			"entries": [
+				"At 11th level, creatures marvel at your performances, and hang on to your every word. As an action, each creature you choose within 30 feet of you must make a Wisdom saving throw against your Influence save DC.",
+				"A creature that fails its save is {@condition charmed} by you for 1 minute, or until you or your companions do anything harmful to it. A creature charmed this way must take the Dash action and move towards you by the safest available route on each of its turns, unless there is nowhere to move.",
+				"If the creature is within 5 feet of you it is {@condition incapacitated}, captivated by your mere presence.",
+				"When this feature ends, the creature doesn't know it was charmed by you. Once you use this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Peak of Stardom",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 11,
+			"entries": [
+				"At 11th level, creatures marvel at your performances, and hang on to your every word. As an action, each creature you choose within 30 feet of you must make a Wisdom saving throw against your Influence save DC.",
+				"A creature that fails its save is charmed by you for 1 minute, or until you or your companions do anything harmful to it.",
+				"A creature charmed this way must take the Dash action and move towards you by the safest available route on each of its turns, unless there is nowhere to move.",
+				"If the creature is within 5 feet of you it is incapacitated, captivated by your mere presence. When this feature ends, the creature doesn't know it was charmed by you. Once you use this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Play Them False",
+			"source": "Scion",
+			"className": "Scion",
+			"classSource": "Scion",
+			"subclassSource": "Scion",
+			"subclassShortName": "Idol",
+			"page": 11,
+			"level": 17,
+			"entries": [
+				"At 17th level, once per round, if you or a friendly creature within 30 feet of you hits with a attack against creature that is {@condition charmed} by you or surprised, you can have that creature take an extra 3d6 damage (no action required)."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Warlord",
+			"source": "Scion",
+			"page": 4,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Warlord",
+			"subclassFeatures": [
+				"Fighting Words|Scion|Scion|Warlord|Scion|1",
+				"Fighting Style|Scion|Scion|Warlord|Scion|1",
+				"Heavy Calluses|Scion|Scion|Warlord|Scion|1",
+				"Bellow|Scion|Scion|Warlord|Scion|2",
+				"Extra Attack|Scion|Scion|Warlord|Scion|5",
+				"Hew|Scion|Scion|Warlord|Scion|11",
+				"Follow-Through|Scion|Scion|Warlord|Scion|17"
+			]
+		},
+		{
+			"name": "Idol",
+			"source": "Scion",
+			"page": 11,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Idol",
+			"subclassFeatures": [
+				"Versatile Performer|Scion|Scion|Idol|Scion|1",
+				"Unarmored Defence|Scion|Scion|Idol|Scion|1",
+				"Very Important Person|Scion|Scion|Idol|Scion|1",
+				"Disarming Smile|Scion|Scion|Idol|Scion|2",
+				"Overzealous Fan|Scion|Scion|Idol|Scion|5",
+				"Peak of Stardom|Scion|Scion|Idol|Scion|11",
+				"Play them False|Scion|Scion|Idol|Scion|17"
+			]
+		},
+		{
+			"name": "Syndicate Leader",
+			"source": "Scion",
+			"page": 7,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Syndicate Leader",
+			"subclassFeatures": [
+				"Organized Crime|Scion|Scion|Syndicate Leader|Scion|1",
+				"Misleading Words|Scion|Scion|Syndicate Leader|Scion|1",
+				"Pawns Go First|Scion|Scion|Syndicate Leader|Scion|2",
+				"If You Want Something Done Right|Scion|Scion|Syndicate Leader|Scion|5",
+				"Intricate Planning|Scion|Scion|Syndicate Leader|Scion|11",
+				"No Loose Ends|Scion|Scion|Syndicate Leader|Scion|17"
+			]
+		},
+		{
+			"name": "Evangelist",
+			"source": "Scion",
+			"page": 8,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Evangelist",
+			"subclassFeatures": [
+				"Bonus Cantrips|Scion|Scion|Evangelist|Scion|1",
+				"Divine Following|Scion|Scion|Evangelist|Scion|1",
+				"Religious Arts|Scion|Scion|Evangelist|Scion|2",
+				"Mob Mentality|Scion|Scion|Evangelist|Scion|5",
+				"Sect Headquarters|Scion|Scion|Evangelist|Scion|11",
+				"Divine Grace|Scion|Scion|Evangelist|Scion|17"
+			]
+		},
+		{
+			"name": "Aristocrat",
+			"source": "Scion",
+			"page": 9,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Aristocrat",
+			"subclassFeatures": [
+				"Unarmored Defence|Scion|Scion|Aristocrat|Scion|1",
+				"Bodyguard|Scion|Scion|Aristocrat|Scion|1",
+				"A Way with Words|Scion|Scion|Aristocrat|Scion|1",
+				"Self Preservation|Scion|Scion|Aristocrat|Scion|2",
+				"Delegate|Scion|Scion|Aristocrat|Scion|5",
+				"Fearless Champion|Scion|Scion|Aristocrat|Scion|11",
+				"Humiliate|Scion|Scion|Aristocrat|Scion|17"
+			]
+		},
+		{
+			"name": "Magnate",
+			"source": "Scion",
+			"page": 10,
+			"className": "Scion",
+			"classSource": "Scion",
+			"shortName": "Magnate",
+			"subclassFeatures": [
+				"Master of their Trade|Scion|Scion|Magnate|Scion|1",
+				"Order of Business|Scion|Scion|Magnate|Scion|1",
+				"Appraiser|Scion|Scion|Magnate|Scion|1",
+				"Tricks of the Trade|Scion|Scion|Magnate|Scion|2",
+				"Delegate|Scion|Scion|Magnate|Scion|5",
+				"Trade Secrets|Scion|Scion|Magnate|Scion|11",
+				"Magnifico|Scion|Scion|Magnate|Scion|17"
+			]
+		}
+	]
+}
